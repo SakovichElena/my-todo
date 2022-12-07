@@ -12,9 +12,8 @@ const list_group = document.querySelector("#list_group");
 console.log(list_group);
 form.addEventListener("submit", function(event) {
     event.preventDefault();
-    // console.log("submit");
     const taskText = input_add.value;
-    // console.log(taskText);
+    console.log(taskText);
     const taskHTML = `<li class="list-group-item">
     <div class="item-todo">
         <input type="checkbox" class="form-check-input">
@@ -25,6 +24,8 @@ form.addEventListener("submit", function(event) {
     </li>`;
     console.log(taskHTML);
     list_group.insertAdjacentHTML("beforeend", taskHTML);
+    input_add.value = "";
+    input_add.focus();
 });
 
 //# sourceMappingURL=index.c36f364e.js.map

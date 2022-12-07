@@ -127,7 +127,7 @@
 }
 
 .list .list-item {
-  border-bottom: 2px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
   padding: 10px 0;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .list .list-item-medium {
-  border-bottom: 2px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
   padding: 10px 0;
 }
 
@@ -160,7 +160,7 @@
 }
 
 .list .list-item-bottom img {
-  margin-left: 753px;
+  margin-left: 752px;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */
