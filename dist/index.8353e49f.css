@@ -8,22 +8,22 @@
   display: flex;
 }
 
-.btn-danger {
+.btn_delete {
   width: 170px;
   height: 38px;
   color: #fff;
-  background-color: #db7093;
+  background-color: #d8bfd8;
   border-color: #0000;
   border-radius: 10px;
   margin-right: 20px;
   font-size: 16px;
 }
 
-.btn-warning {
+.btn_delete_last {
   width: 170px;
   height: 38px;
   color: #fff;
-  background-color: #cd5c5c;
+  background-color: #d598a3;
   border-color: #0000;
   border-radius: 10px;
   margin-right: 20px;
@@ -43,7 +43,7 @@
   font-size: 16px;
 }
 
-.btn-primary {
+.btn_add {
   width: 170px;
   height: 38px;
   color: gray;
@@ -85,7 +85,7 @@
   margin: 0 6px;
 }
 
-.btn-success {
+.btn_show {
   width: 260px;
   height: 38px;
   color: gray;
@@ -96,7 +96,7 @@
   font-size: 16px;
 }
 
-.btn-info {
+.btn_show_completed {
   width: 260px;
   height: 38px;
   color: gray;
@@ -105,6 +105,10 @@
   border-radius: 10px;
   margin-left: 20px;
   font-size: 16px;
+}
+
+button:hover {
+  background-color: #db7093;
 }
 
 .form-input {
