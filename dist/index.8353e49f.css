@@ -4,7 +4,7 @@
 }
 
 .row {
-  margin-top: 20px;
+  margin-top: 25px;
   display: flex;
 }
 
@@ -30,6 +30,10 @@
   font-size: 16px;
 }
 
+.form {
+  display: flex;
+}
+
 .form-control {
   width: 448px;
   height: 34px;
@@ -51,7 +55,7 @@
 }
 
 .row-2 {
-  margin-top: 20px;
+  margin: 25px 0 0;
   display: flex;
 }
 
@@ -113,50 +117,50 @@
   font-size: 16px;
 }
 
-.list-group {
+.list {
   border: 1px solid #e9ecef;
   border-radius: 10px;
-  margin: 20px 0;
+  margin: 25px 0 20px;
   padding: 0;
   font-size: 20px;
   list-style: none;
 }
 
-.list-group .list-group-item {
+.list .list-item {
   border-bottom: 2px solid #e9ecef;
   padding: 10px 0;
 }
 
-.list-group .form-check-input {
+.list .form-check-input {
   margin-right: 20px;
 }
 
-.list-group img {
+.list img {
   width: 20px;
   height: 20px;
-  margin-left: 762px;
+  margin-left: 710px;
 }
 
-.list-group .input-date {
+.list .input-date {
   width: 100px;
   margin: 0 0 0 887px;
 }
 
-.list-group .list-group-item-medium {
+.list .list-item-medium {
   border-bottom: 2px solid #e9ecef;
   padding: 10px 0;
 }
 
-.list-group .list-group-item-medium img {
-  margin-left: 741px;
+.list .list-item-medium img {
+  margin-left: 771px;
 }
 
-.list-group .list-group-item-bottom {
+.list .list-item-bottom {
   padding: 10px 0;
 }
 
-.list-group .list-group-item-bottom img {
-  margin-left: 757px;
+.list .list-item-bottom img {
+  margin-left: 753px;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */

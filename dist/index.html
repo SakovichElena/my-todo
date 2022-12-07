@@ -43,12 +43,13 @@
             <div class="col-1">
                 <button type="button" class="btn btn-fluid btn-warning">Delete Last</button>
             </div>
-            <div class="col-2">
-                <input id="input-add" type="text" class="form-control" placeholder="Enter todo...">
-            </div>
+            <form class="form" id="form">
+                <input id="input_add" type="text" class="form-control" placeholder="Enter todo...">
+            <!-- </form> -->
             <div class="col-1">
                 <button type="button" class="btn btn-fluid btn-primary">Add</button>
             </div>
+            </form>
         </div>
         <div class="row-2">
             <div class="col-3">
@@ -64,29 +65,29 @@
                 <button type="button" class="btn btn-fluid btn-info">Show Completed</button>
             </div>
             <div class="col-2">
-                <input id="input-add" type="text" class="form-input" placeholder="Search...">
+                <input id="input_search" type="text" class="form-input" placeholder="Search...">
             </div>
         </div>
-        <ul class="list-group">
-            <li class="list-group-item">
+        <ul id="list_group" class="list">
+            <li class="list-item">
             <div class="item-todo">
                 <input type="checkbox" class="form-check-input">
-                <label class="form-check-label" for="">First checkbox</label>
+                <label class="form-check-label" for="">Reading work emails</label>
                 <img src="/trash-svgrepo-com.b8568722.svg" alt="trash">
                 <input type="date" class="input-date" value="2022-12-07">
             </div>
             </li>
-            <li class="list-group-item-medium">
+            <li class="list-item-medium">
             <div class="item-todo">
                 <input type="checkbox" class="form-check-input">
-                <label class="form-check-label" for="">Second checkbox</label>
+                <label class="form-check-label" for="">Gym workout</label>
                 <img src="/trash-svgrepo-com.b8568722.svg" alt="trash">
                 <input type="date" class="input-date" value="2022-12-08">
             </div>
-            </li><li class="list-group-item-bottom">
+            </li><li class="list-item-bottom">
                 <div class="item-todo">
                     <input type="checkbox" class="form-check-input">
-                    <label class="form-check-label" for="">Third checkbox</label>
+                    <label class="form-check-label" for="">Payment of bills</label>
                     <img src="/trash-svgrepo-com.b8568722.svg" alt="trash">
                     <input type="date" class="input-date" value="2022-12-09">
                 </div>
@@ -94,7 +95,7 @@
         </ul>
     </div>
 </div>
-
+<script src="/index.c36f364e.js"></script>
 
 
 
