@@ -26,8 +26,8 @@ function addTask(e) {
         <input type="date" class="input-date" value="2022-12-07">
     </div>
     </li>`
-    // console.log(taskHTML);
-    
+    console.log(taskHTML);
+
     // function addEl () {
     //     btn_add.addEventListener("click", addListElement);
     // }
