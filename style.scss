@@ -31,148 +31,149 @@
 .container {
     max-width: 1024px;
     margin: 0 auto;
-}
-.row {
-    display: flex;
-    margin-top: 25px;
-}
-.btn_delete{
-    width: 170px;
-    height:38px;
-    font-size: 16px;
-    border-radius: 10px;
-    margin-right: 20px;
-    background-color: #d8bfd8	;
-    color: #fff;
-    border-color: transparent;
-}
-.btn_delete_last {
-    width: 170px;
-    height:38px;
-    font-size: 16px;
-    border-radius: 10px;
-    margin-right: 20px;
-    background-color: #d598a3;
-    color: #fff;
-    border-color: transparent;
-}
-.form{
-    display: flex;
-}
-.form-control {
-    width: 448px;
-    height: 34px;
-    text-align: center;
-    border-radius: 8px;
-    border: 1px solid #ced4da;
-    font-size: 16px;
-}
-.btn_add {
-    width: 170px;
-    height: 38px;
-    font-size: 16px;
-    border-radius: 10px;
-    margin-left: 20px;
-    background-color: #FFDAB9;
-    color: #808080;
-    border-color: transparent;
-}
-.row-2 {
-    display: flex;
-    margin: 25px 0 0;
-}
-.col-3 {
-    display: flex;
-    padding-top: 9px;
-    p {
-        margin: 0 5px 0;
-        font-size: 18px;
-        color: #4c4c4c;
+    .row {
+        display: flex;
+        margin-top: 25px;
     }
-    .badge-secondary {
-        width: 23px;
-        height: 18px;
-        color: #000;
-        background-color: #ced4da;
-        border-radius: 4px;
+    .btn_delete{
+        width: 170px;
+        height:38px;
         font-size: 16px;
-        text-align: center;
-        margin: 0;
-    }
-    .completed {
-        margin: 0 6px 0;
-    }
-}
-.btn_show {
-    width: 260px;
-    height: 38px;
-    font-size: 16px;
-    border-radius: 10px;
-    margin-left: 20px;
-    background-color: #FFB6C1;
-    color: #808080;
-    border-color: transparent;
-}
-.btn_show_completed {
-    width: 260px;
-    height: 38px;
-    font-size: 16px;
-    border-radius: 10px;
-    margin-left: 20px;
-    background-color: #FFE4E1 ;
-    color: #808080;
-    border-color: transparent;
-}
-button:hover {
-    background-color: #DB7093;
-}
-.form-input {
-    width: 267px;
-    height: 34px;
-    text-align: center;
-    border-radius: 8px;
-    border: 1px solid #ced4da;
-    font-size: 16px;
-    margin-left: 20px;
-}
-.list {
-    font-size: 20px;
-    list-style: none;
-    border: 1px solid #e9ecef;
-    border-radius: 10px;
-    margin: 25px 0 20px;
-    padding: 0;
-    .list-item {
-        border-bottom: 1px solid #e9ecef;
-        padding: 10px 0;
-    }
-    // .item-todo {
-
-    //     border-bottom: 2px solid #e9ecef;
-    // }
-    .form-check-input {
+        border-radius: 10px;
         margin-right: 20px;
+        background-color: #d8bfd8	;
+        color: #fff;
+        border-color: transparent;
     }
-    img {
-        width: 20px;
-        height: 20px;
-        margin-left: 710px;
+    .btn_delete_last {
+        width: 170px;
+        height:38px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-right: 20px;
+        background-color: #d598a3;
+        color: #fff;
+        border-color: transparent;
     }
-    .input-date {
-        width: 100px;
-        margin: 0 0 0 887px;
+    .form{
+        display: flex;
     }
-    .list-item-medium {
-        padding: 10px 0;
-        border-bottom: 1px solid #e9ecef;
-        img {
-            margin-left: 771px;
+    .form-control {
+        width: 448px;
+        height: 34px;
+        text-align: center;
+        border-radius: 8px;
+        border: 1px solid #ced4da;
+        font-size: 16px;
+    }
+    .btn_add {
+        width: 170px;
+        height: 38px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-left: 20px;
+        background-color: #FFDAB9;
+        color: #808080;
+        border-color: transparent;
+    }
+    .row-2 {
+        display: flex;
+        margin: 25px 0 0;
+        .row-2_item{
+            display: flex;
+            padding-top: 9px;
+            p {
+                margin: 0 5px 0;
+                font-size: 18px;
+                color: #4c4c4c;
+            }
+            .badge-secondary {
+                width: 23px;
+                height: 18px;
+                color: #000;
+                background-color: #ced4da;
+                border-radius: 4px;
+                font-size: 16px;
+                text-align: center;
+                margin: 0;
+            }
+            .completed {
+                margin: 0 6px 0;
+            }
         }
     }
-    .list-item-bottom {
-        padding: 10px 0;
-        img {
-            margin-left: 752px;
+    .btn_show {
+        width: 260px;
+        height: 38px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-left: 20px;
+        background-color: #FFB6C1;
+        color: #808080;
+        border-color: transparent;
+    }   
+    .btn_show_completed {
+        width: 260px;
+        height: 38px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-left: 20px;
+        background-color: #FFE4E1 ;
+        color: #808080;
+        border-color: transparent;
+    }
+    .form-input {
+        width: 267px;
+        height: 34px;
+        text-align: center;
+        border-radius: 8px;
+        border: 1px solid #ced4da;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    button:hover {
+        background-color: #DB7093;
+    }
+    ul li:not(:last-child) {
+        border-bottom: 1px solid #e9ecef;
+    }
+    .list {
+        font-size: 20px;
+        list-style: none;
+        border: 1px solid #e9ecef;
+        border-radius: 10px;
+        margin: 25px 0 20px;
+        padding: 0;
+        .list-item {
+            padding: 10px 0;
+        }
+        .item-todo {
+            position: relative;
+            padding-top: 10px;
+        }
+        .form-check-input {
+            margin-right: 20px;
+        }
+        .bg-img {
+            position: absolute;
+            top: 0;
+            left: 898px;
+            width: 80px;
+            height: 30px;
+            background-image: url("./img/trash-svgrepo-com.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            border: none;
+            margin-bottom:5px;
+            img {   
+                width: 20px;
+                height: 20px;
+                margin-left: 710px;
+            }
+        }
+        .input-date {
+         width: 100px;
+            margin: 14px 0 0 892px;
         }
     }
 }

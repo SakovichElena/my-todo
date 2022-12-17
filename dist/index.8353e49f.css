@@ -3,12 +3,12 @@
   margin: 0 auto;
 }
 
-.row {
+.container .row {
   margin-top: 25px;
   display: flex;
 }
 
-.btn_delete {
+.container .btn_delete {
   width: 170px;
   height: 38px;
   color: #fff;
@@ -19,7 +19,7 @@
   font-size: 16px;
 }
 
-.btn_delete_last {
+.container .btn_delete_last {
   width: 170px;
   height: 38px;
   color: #fff;
@@ -30,11 +30,11 @@
   font-size: 16px;
 }
 
-.form {
+.container .form {
   display: flex;
 }
 
-.form-control {
+.container .form-control {
   width: 448px;
   height: 34px;
   text-align: center;
@@ -43,7 +43,7 @@
   font-size: 16px;
 }
 
-.btn_add {
+.container .btn_add {
   width: 170px;
   height: 38px;
   color: gray;
@@ -54,23 +54,23 @@
   font-size: 16px;
 }
 
-.row-2 {
+.container .row-2 {
   margin: 25px 0 0;
   display: flex;
 }
 
-.col-3 {
+.container .row-2 .row-2_item {
   padding-top: 9px;
   display: flex;
 }
 
-.col-3 p {
+.container .row-2 .row-2_item p {
   color: #4c4c4c;
   margin: 0 5px;
   font-size: 18px;
 }
 
-.col-3 .badge-secondary {
+.container .row-2 .row-2_item .badge-secondary {
   width: 23px;
   height: 18px;
   color: #000;
@@ -81,11 +81,11 @@
   font-size: 16px;
 }
 
-.col-3 .completed {
+.container .row-2 .row-2_item .completed {
   margin: 0 6px;
 }
 
-.btn_show {
+.container .btn_show {
   width: 260px;
   height: 38px;
   color: gray;
@@ -96,7 +96,7 @@
   font-size: 16px;
 }
 
-.btn_show_completed {
+.container .btn_show_completed {
   width: 260px;
   height: 38px;
   color: gray;
@@ -107,11 +107,7 @@
   font-size: 16px;
 }
 
-button:hover {
-  background-color: #db7093;
-}
-
-.form-input {
+.container .form-input {
   width: 267px;
   height: 34px;
   text-align: center;
@@ -121,7 +117,15 @@ button:hover {
   font-size: 16px;
 }
 
-.list {
+.container button:hover {
+  background-color: #db7093;
+}
+
+.container ul li:not(:last-child) {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.container .list {
   border: 1px solid #e9ecef;
   border-radius: 10px;
   margin: 25px 0 20px;
@@ -130,41 +134,41 @@ button:hover {
   list-style: none;
 }
 
-.list .list-item {
-  border-bottom: 1px solid #e9ecef;
+.container .list .list-item {
   padding: 10px 0;
 }
 
-.list .form-check-input {
+.container .list .item-todo {
+  padding-top: 10px;
+  position: relative;
+}
+
+.container .list .form-check-input {
   margin-right: 20px;
 }
 
-.list img {
+.container .list .bg-img {
+  width: 80px;
+  height: 30px;
+  background-image: url("trash-svgrepo-com.b8568722.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 0;
+  left: 898px;
+}
+
+.container .list .bg-img img {
   width: 20px;
   height: 20px;
   margin-left: 710px;
 }
 
-.list .input-date {
+.container .list .input-date {
   width: 100px;
-  margin: 0 0 0 887px;
-}
-
-.list .list-item-medium {
-  border-bottom: 1px solid #e9ecef;
-  padding: 10px 0;
-}
-
-.list .list-item-medium img {
-  margin-left: 771px;
-}
-
-.list .list-item-bottom {
-  padding: 10px 0;
-}
-
-.list .list-item-bottom img {
-  margin-left: 752px;
+  margin: 14px 0 0 892px;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */
